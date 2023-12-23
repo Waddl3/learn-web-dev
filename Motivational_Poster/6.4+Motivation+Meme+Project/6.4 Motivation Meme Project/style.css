@@ -11,6 +11,11 @@ img {
     border: 5px solid white;
     width: 100%;
 }
+/*
+NOTE: Because this is only one img, I generalized it.
+However, if it were a specific-multi imagies, then I
+would do a class="image-poster"
+*/
 
 .position {
     /*Center the image and text*/
