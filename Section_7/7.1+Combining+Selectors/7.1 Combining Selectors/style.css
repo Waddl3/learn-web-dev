@@ -1,0 +1,39 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+
+/*
+Parent -> child   |    This is directing to the parents children
+
+In this case, parent = <div> in line 15
+and the child = <p> in line 16
+
+or 
+
+parent  = class="box" in line 15
+child = <p> in line15
+*/
+.box > p {
+    color: firebrick;
+}
+
+/*
+Descendant 
+where we are getting the child and heading back upt to the ancestor.
+Child we want to change is <li>
+the Ancestor of Child can be <div>
+*/
+.box li {
+    color: blue;
+}
+
+/*Chainning - Apply where ALL selectors are true*/
+li.done {
+    color: seagreen;
+}
+
+/*Combining Combiners */
+ul p.done{
+    font-size: 0.5rem;
+}
